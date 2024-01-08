@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Scrapper</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"
+    />
+  </head>
+  <style>
+    @media only screen and (prefers-color-scheme: dark) {
+      :root:not([data-theme]) {
+        --primary: #3949ab;
+        --primary-hover: #3f51b5;
+        --primary-focus: rgba(57, 73, 171, 0.25);
+        --primary-inverse: #fff;
+      }
+    }
+    h4 {
+      margin-top: 100px;
+      color: rgb(255, 153, 122);
+    }
+    p {
+      color: #ffc476;
+    }
+    h1 {
+      margin-bottom: 30px;
+      color: #8998ff;
+    }
+    .web {
+      color: rgb(135, 135, 255);
+    }
+  </style>
+
+  <body>
+    <main class="container">
+      <h1 class="first">Job Scrapper</h1>
+      <h3>What job do you want to search for?</h3>
+      <form action="/search">
+        <input
+          type="text"
+          name="keyword"
+          placeholder="Write one keyword please"
+        />
+        <button>Search</button>
+      </form>
+      <h4>About This Website</h4>
+      <p>
+        ※ This job scrapper is for
+        <span style="color: rgb(255, 80, 80)">EDUCATIONAL PURPOSE ONLY</span>. I
+        do not create profit or use the data for beneficiary purposes. The data
+        are extracted from
+        <a href="https://remoteok.com/" target="_blank" class="web"
+          >remoteok.com</a
+        >
+        and
+        <a href="https://weworkremotely.com/" target="_blank" class="web"
+          >weworkremotely.com</a
+        >
+        ※
+      </p>
+    </main>
+  </body>
+</html>
