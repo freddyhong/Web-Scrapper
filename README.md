@@ -1,2 +1,9 @@
 # Web-Scrapper
- Web Scrapper coded with Python and Flask for Educational purpose
+
+Last Update: 1/7/2024 <br />
+Coded with Python and Flask <br />
+Pico is used for the CSS code <br />
+
+This is a Web Scrapper educational purpsose only. <br />
+I do not create profit or use the data for beneficiary purposes. <br />
+The data are extracted from remoteok.com and weworkremotely.com <br />
